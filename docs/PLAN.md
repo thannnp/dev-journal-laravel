@@ -5,19 +5,19 @@ Checklist แยกเฟส ทำจากบนลงล่าง แต่�
 
 ---
 
-## เฟส 1 — Scaffold โครงเริ่มต้น
+## เฟส 1 — Scaffold โครงเริ่มต้น ✅ เสร็จ (2026-06-03)
 
 เป้าหมาย: ได้โปรเจกต์ที่ login/register ได้ และหน้าแรก Inertia + React + TS + Tailwind รันขึ้น
 
-- [ ] ติดตั้งโปรเจกต์ใหม่ด้วย `laravel new learning-laravel` แล้วเลือก **React** starter kit (ตอนถามให้เลือก TypeScript)
-- [ ] เลือก/ยืนยัน database = **SQLite** ตอน setup (หรือแก้ `.env` → `DB_CONNECTION=sqlite`)
-- [ ] `composer install` และ `npm install` ครบ
-- [ ] `php artisan migrate` (สร้างตาราง users/sessions/cache ของ starter kit)
-- [ ] `npm run dev` + `php artisan serve` → เปิดเว็บได้
-- [ ] ลอง **register → login → logout** ผ่าน UI ได้จริง
-- [ ] commit แรก: "chore: scaffold laravel react starter kit"
+- [x] ติดตั้งโปรเจกต์ใหม่ด้วย React starter kit (TypeScript) — ตั้งชื่อ APP_NAME = **DevJournalLaravel**
+- [x] database = **SQLite** (`DB_CONNECTION=sqlite`, ไฟล์ `database/database.sqlite`)
+- [x] `composer install` และ `npm install` ครบ
+- [x] `php artisan migrate` (มี 10 ตาราง: users/sessions/cache/passkeys/...)
+- [x] `npm run dev` + `php artisan serve` → เปิดเว็บได้
+- [x] **register → login → logout** ผ่าน UI ได้จริง (users มี 1 แถว)
+- [x] commit แรก + push ขึ้น GitHub (`origin/main` → thannnp/dev-journal-laravel)
 
-**เกณฑ์ผ่านเฟส:** สมัครสมาชิก/ล็อกอินได้ และหน้า dashboard ของ starter โผล่หลัง login
+**เกณฑ์ผ่านเฟส:** ✅ สมัครสมาชิก/ล็อกอินได้ และหน้า dashboard ของ starter โผล่หลัง login
 
 ---
 

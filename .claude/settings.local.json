@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(cd /d/project/laravel/learning-laravel)",
+      "Bash(find . -maxdepth 2 -name \"artisan\" -o -maxdepth 2 -name \"composer.json\")",
+      "Bash(git --version)",
+      "Bash(grep -n \"^\\\\.env$\\\\|^/\\\\.env$\\\\|\\\\.env\" .gitignore)",
+      "Bash(git config *)"
+    ]
+  }
+}
